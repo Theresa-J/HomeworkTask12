@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="1295dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/button3"
+                layout="@layout/button"
+                />
+
+            <include
+                android:id="@+id/tokyo"
+                layout="@layout/format"
+                android:layout_width="match_parent"
+                android:layout_height="259dp"
+                android:scaleType="fitEnd" />
+
+            <include
+                android:id="@+id/jakarta"
+                layout="@layout/format"
+                android:layout_width="match_parent"
+                android:layout_height="259dp"
+                android:scaleType="fitEnd" />
+
+            <include
+                android:id="@+id/sydney"
+                layout="@layout/format"
+                android:layout_width="match_parent"
+                android:layout_height="259dp"
+                android:scaleType="fitEnd" />
+
+            <include
+                android:id="@+id/ny"
+                layout="@layout/format"
+                android:layout_width="match_parent"
+                android:layout_height="259dp"
+                android:scaleType="fitEnd" />
+
+            <include
+                android:id="@+id/bangkok"
+                layout="@layout/format"
+                android:layout_width="match_parent"
+                android:layout_height="259dp"
+                android:scaleType="fitEnd" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
